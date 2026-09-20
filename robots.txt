@@ -1,0 +1,17 @@
+# Southern Downs 4x4 — https://sd4x4.com.au
+User-agent: *
+Allow: /
+Disallow: /404.html
+Disallow: /reviews.json
+
+# AI crawlers welcome — see /llms.txt
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://sd4x4.com.au/sitemap.xml
